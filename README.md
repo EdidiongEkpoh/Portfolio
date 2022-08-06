@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio of all of my work
+Different projects that showcase my data analysis/technical skills. 
