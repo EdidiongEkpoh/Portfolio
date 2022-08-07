@@ -28,7 +28,7 @@ where MPG >= 25
 order by FTRate desc
 
 -- Selecting players that averaged at least 24 PPG and a TS% of at least 57%
--- Case statement on if the player is under the age of 25 or not
+-- Case statement on if the player is under the age of 25, or not
 select Name, Team, Age, GP, PPG, MPG, TS,
 CASE
     when Age < 25 then 'Yes'
