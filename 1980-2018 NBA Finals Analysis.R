@@ -7,6 +7,9 @@ library(dplyr)
 # Reading CSV
 champ <- read.csv('~/Desktop/championsdata.csv')
 
+# Removing NA values
+champ[is.na(champ)] <- 0
+
 summary(champ) # Includes mean, median, etc. for each column
 
 # 1.Logistic Regression to evaluate the correlation between free throw attempts (independent) and Wins (dependent)
