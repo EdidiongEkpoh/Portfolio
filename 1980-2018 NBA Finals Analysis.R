@@ -101,7 +101,7 @@ ggplot(early_and_modern, aes(x=Year, y=TOV)) + geom_point() +
 
 # A lot steeper slope
 # This could be due to the increased pace that the modern basketball game has, more mistakes are prone to happening in comparison to the 80s because of its sped up nature
-# This strips away possessions that could have resulted in points and turns them into opportunities for opponents
+# This strips away possessions that could have resulted in points and turns them into opportunities for opponents.
 
 
 # Conclusion
